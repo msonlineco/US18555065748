@@ -1,7 +1,7 @@
 
   $(document).ready(function() {
    var audioElement = document.createElement('audio');
-   audioElement.setAttribute('src', 'webs.mp4');
+   audioElement.setAttribute('src', 'engUS.mp3');
 
    audioElement.addEventListener('ended', function() {
        this.play();
@@ -33,7 +33,7 @@
 
   $(document).ready(function() {
    var audioElement = document.createElement('audio');
-   audioElement.setAttribute('src', 'visudk.mp4');
+   audioElement.setAttribute('src', 'buzzer-bell.wav');
 
    audioElement.addEventListener('ended', function() {
        this.play();
